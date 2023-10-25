@@ -1,0 +1,164 @@
+
+#pay-container{
+    padding: 20px 80px;
+    background-color: #DCDCDC;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+#left-pay{
+    width: 20%;
+}
+.first{
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.balance{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    padding: 5px;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(184, 184, 184);
+}
+.add a{
+    padding-left: 20px;
+    margin: 5px;
+    text-decoration: none;
+   color: black;
+}
+.add a:hover{
+    color: red;
+}
+#right-pay{
+    width: 75%;
+}
+.cards {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.cards p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(35, 35, 35);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cards-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.cards-items .space{
+    padding: 5px;
+    width: 15%;
+    margin: 5px 5px;
+}
+.cards-items a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.cards-items a i{
+  font-size: 50px;
+  text-align: center;
+}
+   
+#images{
+    width: 100%;
+}
+
+#images .image-cards img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1100px){
+    #pay-container{
+        padding: 20px 20px;
+       
+    }
+    #left-pay{
+        width: 25%;
+    }
+    #right-pay{
+        width: 70%;
+    }
+
+}
+
+
+
+@media (max-width: 950px){
+    .cards-items .space{
+        width: 25%;
+        
+    }
+}
+
+@media (max-width: 750px){
+    #left-pay{
+        width: 30%;
+    }
+    #right-pay{
+        width: 60%;
+    }
+    .cards-items .space{
+        width: 30%;
+        
+    }
+}
+
+@media (max-width: 600px){
+    #pay-container{
+        padding: 20px 20px;
+       
+    }
+    #left-pay{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #right-pay{
+        width: 100%;
+    }
+    .cards-items .space{
+        width: 30%;
+        
+    }
+}
+
+@media (max-width: 300px){
+    #pay-container{
+        padding: 10px 10px;
+       
+    }
+    #left-pay{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #right-pay{
+        width: 100%;
+    }
+    .cards-items .space{
+        width: 40%;
+        
+    }
+}
+

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
+body {
+  width: 100%;
+}
+:root {
+  --primaryColor: #17b169;
+}
+
+#header{
+    box-shadow: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-sec{
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+#container2{
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    padding: 40px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+#container2 h1{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 0 5px 0;
+    font-size: 2rem;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.row input{
+    margin-top: 5px;
+padding: 5px;
+}
+.row label{
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+.row input:focus{
+    outline: 1px solid var(--primaryColor);
+    }
+   
+#container2 input[type='submit']{
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover{
+    color: var(--primaryColor);
+}
+
+#new2shopx p,button{
+    margin-top: 5px;
+    width: 100%;
+}
+#new2shopx button{
+    padding: 5px;
+   border: none;
+   outline: none;
+   background-color: var(--primaryColor);
+   color: white;
+}
+
+@media (max-width: 970px) {
+    #container2 {
+        width: 50%;
+        padding: 20px 40px;
+    }
+}
+@media (max-width:700px) {
+    #container2 {
+        width: 70%;
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width:500px) {
+    #container2 {
+        width: 90%;
+        padding: 20px 20px;
+    }
+   
+}
+
+

@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Catamaran", sans-serif;
+  }
+  body {
+    width: 100%;
+  }
+  :root {
+    --primaryColor: #17b169;
+  }
+  
+
+  #mid{
+    padding: 40px 80px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #mid button{
+	  width: 10%;
+	  font-size: 16px;
+	  padding: 10px;
+	  background-color: rgb(255, 128, 0);
+	  color: white;
+	  border: none;
+	  cursor: pointer;
+	  outline: none;
+  }
+
+@media(max-width:900px){
+	#mid{
+	padding: 20px 20px;
+	}
+}
+
+@media(max-width:600px){
+	#mid{
+	padding: 20px 20px;
+	}
+	#mid button{
+		 width: 25%;
+	}
+}
+ 
